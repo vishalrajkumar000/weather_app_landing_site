@@ -1,0 +1,89 @@
+
+body{
+  font-family: 'Montserrat';
+}
+a img{
+  width: 15%;
+  border-radius: 50%;
+
+}
+.navbar{
+  font-size: 1.3rem;
+}
+/* banner1 */
+
+#banner1{
+  padding: 7% 10%;
+}
+
+h1{
+  font-size: 4rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.download{
+  margin: 2% 4% 2% 0;
+}
+.img1{
+  width: 49%;
+  transform: rotate(15deg);
+}
+.img2{
+  width: 49%;
+  transform: rotate(-15deg);
+}
+
+/* banner2 */
+
+#banner2{
+  padding: 10% 10%;
+  text-align: center;
+  background:#F8F9FA;
+
+}
+h3{
+  font-weight: 500;
+  margin: 2% 1% 0;
+}
+.icon{
+  color: mediumslateblue;
+}
+.fdesc{
+  margin-bottom: 5%;
+}
+
+
+/* banner3 */
+
+#banner3{
+  padding: 7% 10%;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.img3{
+  width: 32%;
+  transform: rotate(-15deg);
+}
+.img4{
+  width: 32%;
+  transform: rotate(0deg);
+}
+.img5{
+  width: 32%;
+  transform: rotate(15deg);
+}
+
+/* footer */
+footer{
+  text-align: center;
+  padding: 1.5%;
+  background: #F8F9FA;
+}
+
+@media (max-width:991px) {
+  #banner1,#banner3{
+    text-align: center;
+  }
+}
