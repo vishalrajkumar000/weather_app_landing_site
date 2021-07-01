@@ -84,9 +84,16 @@ footer{
     text-align: center;
   }
   h1{
-    font-size: 3rem;
+    font-size: 2rem;
   }
   a img{
     width: 70px;
+  }
+  .download{
+    font-size: .8rem;
+    padding: .5rem;
+  }
+  footer{
+    font-size: 0.5rem;
   }
 }
