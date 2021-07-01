@@ -58,10 +58,7 @@ h3{
 #banner3{
   padding: 7% 10%;
 }
-h2{
-  font-size: 2.5rem;
-  font-weight: 600;
-}
+
 .img3{
   width: 32%;
   transform: rotate(-15deg);
@@ -82,8 +79,14 @@ footer{
   background: #F8F9FA;
 }
 
-@media (max-width:991px) {
+@media (max-width:1024px) {
   #banner1,#banner3{
     text-align: center;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  a img{
+    width: 70px;
   }
 }
